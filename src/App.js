@@ -2,7 +2,8 @@ import React from 'react';
 
 import './global.css';
 import './App.css';
-import './Sidebar.css'
+import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -37,7 +38,52 @@ function App() {
         </form>
       </aside>
       <main>
-
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/20971282?s=460&v=4" alt="Guilherme Nascimento"/>
+              <div className="user-info">
+                <strong>Guilherme Nascimento</strong>
+                <span>PHP, React, Vuejs</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Web na agência Ataque Propaganda</p>
+            <a href="https://github.com/gfnasc">Acessar perfil no Github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/20971282?s=460&v=4" alt="Guilherme Nascimento"/>
+              <div className="user-info">
+                <strong>Guilherme Nascimento</strong>
+                <span>PHP, React, Vuejs</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Web na agência Ataque Propaganda</p>
+            <a href="https://github.com/gfnasc">Acessar perfil no Github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/20971282?s=460&v=4" alt="Guilherme Nascimento"/>
+              <div className="user-info">
+                <strong>Guilherme Nascimento</strong>
+                <span>PHP, React, Vuejs</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Web na agência Ataque Propaganda</p>
+            <a href="https://github.com/gfnasc">Acessar perfil no Github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/20971282?s=460&v=4" alt="Guilherme Nascimento"/>
+              <div className="user-info">
+                <strong>Guilherme Nascimento</strong>
+                <span>PHP, React, Vuejs</span>
+              </div>
+            </header>
+            <p>Desenvolvedor Web na agência Ataque Propaganda</p>
+            <a href="https://github.com/gfnasc">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
